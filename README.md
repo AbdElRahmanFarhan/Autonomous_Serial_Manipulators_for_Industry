@@ -11,5 +11,6 @@ Second package is responnsible for the robot control in our project, which inclu
 - Moveit!
 - RWS & EGM abb controller interfaces
 - Librealsense SDK 2.0
+- ROS
 
 Feel free to contact us for any inquiries!
