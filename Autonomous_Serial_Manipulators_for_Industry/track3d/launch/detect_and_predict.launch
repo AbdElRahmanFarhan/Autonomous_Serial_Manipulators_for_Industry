@@ -1,0 +1,5 @@
+<launch>
+  <node name="process_and_predict" pkg="track3d" type="process_and_predict.py" output="screen"/>
+  <node name="fetch_and_align" pkg="track3d" type="fetch_and_align" output="screen"/>
+  <node name="tracking" pkg="track3d" type="tracking" output="screen"/>
+</launch>

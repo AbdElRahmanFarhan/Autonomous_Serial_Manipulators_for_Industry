@@ -1,0 +1,15 @@
+<launch>
+  	<!--<node name="record" pkg="rosbag" type="record" args="record /robot_trajectory_planning -O $(find attrobot)/plotting/STOPP_planning.bag"/>-->
+  <node name="path_planning" pkg="attrobot" type="path_planning.py" respawn="false" output="screen"/>
+<!--  <node name="process_and_predict" pkg="attrobot" type="process_and_predict.py" respawn="false" output="screen"/>-->
+  <node name="egm_comm_demo" pkg="attrobot" type="egm_comm_demo" respawn="true" output="screen"/>
+  <node name="rws_demo" pkg="attrobot" type="rws_demo" respawn="false" output="screen"/>
+  <node name="hitting_decision" pkg="attrobot" type="hitting_decision.py" respawn="false" output="screen"/>
+<!--  <node name="test" pkg="attrobot" type="test.py" respawn="false" output="screen"/>-->
+  <!--    <node name="traj_msg_test" pkg="attrobot" type="traj_msg_test.py" respawn="false" output="screen"/>-->
+
+<!--    <node name="target_pose" pkg="attrobot" type="target_pose.py" respawn="false" output="screen"/>-->
+  <node name="log_data" pkg="attrobot" type="log_data.py" respawn="false" output="screen"/>
+  <node name="trajectory_planning" pkg="attrobot" type="trajectory_planning.py" respawn="false" output="screen"/>
+  <include file="$(find abb_irb120_moveit_config)/launch/demo.launch"/>
+</launch>

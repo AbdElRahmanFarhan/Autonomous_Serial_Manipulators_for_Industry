@@ -1,0 +1,12 @@
+uint8[] ir
+uint16[] depth
+float64 time_stamp
+float32 depth_scale
+int32 width     
+int32 height    
+float32 ppx       
+float32 ppy       
+float32 fx        
+float32 fy       
+int32 model
+float32[] coeffs

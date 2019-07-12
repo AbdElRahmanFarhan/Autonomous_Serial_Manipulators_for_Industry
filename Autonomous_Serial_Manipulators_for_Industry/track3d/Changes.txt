@@ -1,0 +1,17 @@
+track3d package updates in version 4-1-2019:
+--------------------------------------------------
+
+1-	added python package in src directory named same as the package "track3d"
+2-	added the python modules(i.e. non executable python files containing python defs)  Post_Processing_Block.py,
+	Generalized_Impact_Model.py, and traj_pred.y in the python package
+3-	added python scripts(i.e. executable python files) process_and_predict.py(imports the python modules)
+4-	installed the python package and scripts using cmakelists.txt 'Install command' and the file setup.py(don't execute)
+5-	tracking_and_alignment, process_and_predict became ros nodes
+6-	added ball_trajectory.msg in msg folder
+7-	tracking_and_alignment puplishes bal_trajectory msgs to process_and_predict
+8-	added detect_and_predict.launch file to launch both nodes.
+
+Important:
+-----------
+- when building the package make sure u r in ur python virtual enviroment(workon virtualenv name).
+- source the workspace again after building.

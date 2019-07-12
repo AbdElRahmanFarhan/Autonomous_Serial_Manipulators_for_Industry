@@ -1,0 +1,4 @@
+<launch>
+  <node name="fetch_and_align_assign" pkg="track3d" type="fetch_and_align_assign" output="screen"/>
+  <node name="ref_assign" pkg="track3d" type="ref_assign" output="screen"/>
+</launch>

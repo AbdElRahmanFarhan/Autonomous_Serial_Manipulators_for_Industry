@@ -1,0 +1,1 @@
+catkin build track3d -DOpenCV_DIR=/usr/local/share/OpenCV
