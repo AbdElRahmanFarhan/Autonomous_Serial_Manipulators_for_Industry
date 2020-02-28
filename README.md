@@ -7,7 +7,7 @@ This is a premature version of the ABB ping-pong playing robot repository, In th
 In this repository, you'll find two main packages, first one is the vision system for a ping-pong playing robot, which contains the ball detection, tracking, and prediction algorithms.
 Second package is responnsible for the robot control in our project, which includes a safe time optimal path parameterization algorithm, a smart hitting point decision algorithm, robot-controller interface which is divided into a low level controller (EGM) and high level controller(RWS).
 
-## Dependencies
+### Dependencies
 - Moveit!
 - RWS & EGM abb controller interfaces
 - Librealsense SDK 2.0
