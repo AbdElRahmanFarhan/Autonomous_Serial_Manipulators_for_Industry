@@ -17,4 +17,5 @@ Feel free to contact us for any inquiries!
 
 ### Demonstration
 
-![](Autonomous Serial Manipulator ‐ FinalCut.mp4)
+https://user-images.githubusercontent.com/36744004/198647843-711be5be-7433-4769-84ab-d28c291e5ad3.mp4
+
