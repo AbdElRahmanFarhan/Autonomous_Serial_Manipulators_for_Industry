@@ -14,3 +14,7 @@ Second package is responnsible for the robot control in our project, which inclu
 - ROS
 
 Feel free to contact us for any inquiries!
+
+### Demonstration
+
+![](Autonomous Serial Manipulator ‐ FinalCut.mp4)
