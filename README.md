@@ -12,6 +12,7 @@ Second package is responnsible for the robot control in our project, which inclu
 - RWS & EGM abb controller interfaces
 - Librealsense SDK 2.0
 - ROS
+- [STOPP](https://github.com/AbdelrhmanBassiouny/stopp) (Developed as part of this project, and is now publicly available through pip)
 
 Feel free to contact us for any inquiries!
 
